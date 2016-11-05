@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="obj_reader_cpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/obj_reader_cpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=gnu++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lglfw3 -lGLU -lGL -lrt -lm -ldl -lXrandr -lXinerama -lXxf86vm -lXcursor -lXext -lXrender -lXfixes -lX11 -lpthread -lxcb -lXau -lXdmcp -lGLEW" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="obj_reader_cpp" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="camera.cpp" />
+		<Unit filename="camera.hpp" />
+		<Unit filename="diamond.obj">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="iso.obj">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="isog.obj">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="isor.obj">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="notes.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="object.cpp" />
+		<Unit filename="object.hpp" />
+		<Unit filename="objectReader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="objectReader.h" />
+		<Unit filename="pyramid.obj">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="sample.obj">
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1478040858 source:/home/nate/code::blocks workspace/obj_reader_cpp/main.cpp
+	<chrono>
+	<cmath>
+	<stdio.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<GL/glew.h>
+	"object.hpp"
+	"camera.hpp"
+
+1476999357 /home/nate/code::blocks workspace/obj_reader_cpp/objReader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1476639581 /home/nate/code::blocks workspace/obj_reader_cpp/renderer.hpp
+	<stdio.h>
+	<stdlib.h>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1477757907 /home/nate/code::blocks workspace/obj_reader_cpp/object.hpp
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GL/gl.h>
+	"objectReader.h"
+
+1477859936 source:/home/nate/code::blocks workspace/obj_reader_cpp/object.cpp
+	"object.hpp"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<chrono>
+	<cmath>
+	"object.hpp"
+
+1477257911 /home/nate/code::blocks workspace/obj_reader_cpp/objectReader.h
+
+1477613593 /home/nate/code::blocks workspace/obj_reader_cpp/objectReader.c
+	"objectReader.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1477757959 /home/nate/code::blocks workspace/obj_reader_cpp/camera.hpp
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GL/gl.h>
+	"object.hpp"
+
+1477613593 source:/home/nate/code::blocks workspace/obj_reader_cpp/objectReader.c
+	"objectReader.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1477757975 source:/home/nate/code::blocks workspace/obj_reader_cpp/camera.cpp
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<chrono>
+	<cmath>
+	"camera.hpp"
+
